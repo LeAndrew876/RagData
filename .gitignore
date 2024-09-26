@@ -1,1 +1,12 @@
+# Ignore the virtual environment folder
 .env
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore VS Code settings
+.vscode/
+.cursor/
+
+# Ignore log files
+*.log
