@@ -1,21 +1,19 @@
-# RAG with Groq, OpenAI and Huggingface
+# Retrieval-Augmented Generation (RAG) Notebook
 
-This project is an AI-powered code assistant that leverages various AI models and APIs to help developers with coding tasks, code generation, and potentially code analysis.
+This notebook demonstrates the use of Retrieval-Augmented Generation (RAG) techniques using various libraries and APIs such as HuggingFace, LangChain, Pinecone, and OpenAI. The goal is to process a dataset of resumes, embed the text data, store it in a vector database, and perform queries to retrieve relevant information.
 
-## Project Overview
+## Skills and Resources
 
-This codebase appears to be set up for a Python-based application that integrates with several AI services, including:
+**Skills:**
+- HuggingFace
+- LangChain
+- Pinecone
+- OpenAi
 
-- Groq API
-- OpenAI API
-- Pinecone (vector database)
-
-The project likely aims to provide intelligent code assistance, potentially including features such as:
-
-- Code generation
-- Code completion
-- Code analysis
-- Natural language processing for code-related queries
+**Other Resources:**
+- [Get your Groq API Key](https://console.groq.com/keys)
+- [Get your Pinecone API Key](https://www.pinecone.io/)
+- [Get your OpenAI API Key](https://www.openai.com/)
 
 ## Getting Started
 
@@ -44,25 +42,8 @@ To get started with this project, follow these steps:
 
 5. Make sure you have the necessary permissions and access to the APIs mentioned in the `.env` file.
 
-6. Run the main application file (the exact filename is not provided in the context, but it's likely a Python file in the root directory).
 
-## Project Structure
-
-- `.env`: Contains environment variables and API keys (not tracked by git)
-- `.gitignore`: Specifies files and directories that should not be tracked by git
-- `requirements.txt`: Lists all Python dependencies for the project
-
-## Contributing
-
-To contribute to this project:
-
-1. Fork the repository
-2. Create a new branch for your feature
-3. Make your changes and commit them
-4. Push to your fork and submit a pull request
-
-Please ensure that you follow the existing code style and add appropriate tests for new features.
-
-## License
-
-
+Project Structure
+`.env`: Contains environment variables and API keys (not tracked by git)
+`.gitignore`: Specifies files and directories that should not be tracked by git
+`requirements.txt`: Lists all Python dependencies for the project
