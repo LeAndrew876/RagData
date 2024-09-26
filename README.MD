@@ -1,4 +1,4 @@
-# AI-Powered Code Assistant
+# RAG with Groq, OpenAI and Huggingface
 
 This project is an AI-powered code assistant that leverages various AI models and APIs to help developers with coding tasks, code generation, and potentially code analysis.
 
