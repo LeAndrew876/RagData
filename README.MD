@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/hughsio/rag/badge)](https://www.codefactor.io/repository/github/hughsio/rag)
+
 # Retrieval-Augmented Generation (RAG) Notebook
 
 This notebook demonstrates the use of Retrieval-Augmented Generation (RAG) techniques using various libraries and APIs such as HuggingFace, LangChain, Pinecone, and OpenAI. The goal is to process a dataset of resumes, embed the text data, store it in a vector database, and perform queries to retrieve relevant information.
