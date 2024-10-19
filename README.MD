@@ -2,7 +2,7 @@
 
 # Retrieval-Augmented Generation (RAG) Notebook
 
-This notebook demonstrates the use of Retrieval-Augmented Generation (RAG) techniques using various libraries and APIs such as HuggingFace, LangChain, Pinecone, and OpenAI. The goal is to process a dataset of resumes, embed the text data, store it in a vector database, and perform queries to retrieve relevant information.
+This notebook demonstrates the use of Retrieval-Augmented Generation (RAG) techniques using various libraries and APIs such as HuggingFace, LangChain, Pinecone, and OpenAI. The goal is to process a dataset from company documents, embed the text data, store it in a vector database, and perform queries to retrieve relevant information.
 
 ## Skills and Resources
 
@@ -25,7 +25,7 @@ To get started with this project, follow these steps:
 
 2. Set up a virtual environment:
    ```
-   python -m venv .env
+   python3 -m venv .env
    source .env/bin/activate  # On Windows, use `.env\Scripts\activate`
    ```
 
